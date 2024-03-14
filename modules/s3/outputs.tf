@@ -6,5 +6,5 @@ output "bucket_domain_name" {
 output "bucket_id" {
   value       = data.aws_s3_bucket.bucket.id
   sensitive   = false
-  description = "ID de domínio do bucket S3"
+  description = "Id de domínio do bucket S3"
 }
